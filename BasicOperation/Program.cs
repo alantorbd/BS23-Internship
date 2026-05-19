@@ -14,6 +14,7 @@ namespace BasicOperation
             DataTypes dataTypes = new DataTypes();
             dataTypes.RunTask();
 
+            Console.ReadLine();
 
 
 

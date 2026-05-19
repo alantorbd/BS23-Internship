@@ -1,0 +1,14 @@
+D:\Antor\BrainStation\day-2\BasicOperation\BasicOperation\bin\Debug\BasicOperation.exe.config
+D:\Antor\BrainStation\day-2\BasicOperation\BasicOperation\bin\Debug\BasicOperation.exe
+D:\Antor\BrainStation\day-2\BasicOperation\BasicOperation\bin\Debug\BasicOperation.pdb
+D:\Antor\BrainStation\day-2\BasicOperation\BasicOperation\obj\Debug\BasicOperation.csproj.AssemblyReference.cache
+D:\Antor\BrainStation\day-2\BasicOperation\BasicOperation\obj\Debug\BasicOperation.csproj.CoreCompileInputs.cache
+D:\Antor\BrainStation\day-2\BasicOperation\BasicOperation\obj\Debug\BasicOperation.exe
+D:\Antor\BrainStation\day-2\BasicOperation\BasicOperation\obj\Debug\BasicOperation.pdb
+D:\Antor\BrainStation\day-2\BS23-Internship\BasicOperation\bin\Debug\BasicOperation.exe.config
+D:\Antor\BrainStation\day-2\BS23-Internship\BasicOperation\bin\Debug\BasicOperation.exe
+D:\Antor\BrainStation\day-2\BS23-Internship\BasicOperation\bin\Debug\BasicOperation.pdb
+D:\Antor\BrainStation\day-2\BS23-Internship\BasicOperation\obj\Debug\BasicOperation.csproj.AssemblyReference.cache
+D:\Antor\BrainStation\day-2\BS23-Internship\BasicOperation\obj\Debug\BasicOperation.csproj.CoreCompileInputs.cache
+D:\Antor\BrainStation\day-2\BS23-Internship\BasicOperation\obj\Debug\BasicOperation.exe
+D:\Antor\BrainStation\day-2\BS23-Internship\BasicOperation\obj\Debug\BasicOperation.pdb
