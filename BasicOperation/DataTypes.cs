@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicOperation
 {
+
     class DataTypes
     {
         public void RunTask()
@@ -88,8 +89,7 @@ namespace BasicOperation
 
             const double gravity = 9.81;
             Console.WriteLine($"gravity: {gravity}");
-
-
         }
+  
     }
 }

@@ -13,6 +13,7 @@ namespace BasicOperation
             //Console.WriteLine("Hello World!");
             UserInput input = new UserInput();
 
+            Console.ReadLine();
 
 
 
