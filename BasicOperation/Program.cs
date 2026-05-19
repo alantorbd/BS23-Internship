@@ -11,7 +11,7 @@ namespace BasicOperation
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            FlowControl flowControl = new FlowControl();
+            Loops loops = new Loops();
 
             Console.ReadLine();
 
