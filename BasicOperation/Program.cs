@@ -11,8 +11,7 @@ namespace BasicOperation
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            DataTypes dataTypes = new DataTypes();
-            dataTypes.RunTask();
+            UserInput input = new UserInput();
 
             Console.ReadLine();
 

@@ -6,39 +6,90 @@ using System.Threading.Tasks;
 
 namespace BasicOperation
 {
-    internal class DataTypes
+
+    class DataTypes
     {
-        public void RunTask() {
-            int x, y, z;
-            int a = 10,
-                b = 20,
-                c = 30;
-            int age = 10;
-            Console.WriteLine(age);
-            Console.WriteLine(int.MaxValue);
-            
-            long bignumber = 23453434L;
-            Console.WriteLine(bignumber);
-            Console.WriteLine(long.MaxValue);
+        public void RunTask()
+        {
+            //int count, age, number;
+            int count = 10,
+                age = 24,
+                number = 39;
+            Console.Write("count: {0} age: {1} number: {2}\n", count,age, number);
+            Console.WriteLine($"Max int value: {int.MaxValue}");
 
-            double bigdouble = 35.353D;
-            Console.WriteLine(bigdouble);
-            Console.WriteLine(double.MaxValue);
+            long distance = 1234567890L;
+            Console.WriteLine($"distance: {distance}" );
+            Console.WriteLine($"Max long value: {long.MaxValue}");
 
-            float bigfloat = 35.35F;
-            Console.WriteLine(bigfloat);
-            Console.WriteLine(float.MaxValue);
+            float gpa = 3.5F;
+            Console.WriteLine($"gpa: {gpa}");
 
-            decimal bigdecimal = 356.64M;
-            Console.WriteLine(bigdecimal);
-            Console.WriteLine(decimal.MaxValue);
+            double pi = 3.14159D;
+            Console.WriteLine($"pi: {pi}");
 
-            //Character type datatypes
+            decimal price = 19.99M;
+            Console.WriteLine($"price: {price}");
 
-            string name = "Antor";
+            string name = "Al Antor";
+            Console.WriteLine($"Name: {name}");
+
             char grade = 'A';
-            Console.WriteLine(name);
-            Console.WriteLine(grade);
+            Console.WriteLine($"Grade: {grade}");
+
+            bool isMale = true;
+            Console.WriteLine($"isMale: {isMale}");
+
+
+            // converting string to number
+
+            string textAge = "35";
+            age = Convert.ToInt32(textAge);
+            Console.WriteLine($"Convert int: {age}");
+
+            string textDistance = "1234567890";
+            distance = Convert.ToInt64(textDistance);
+
+            pi = Convert.ToDouble("3.14159");
+            gpa = Convert.ToSingle("3.5");
+            price = Convert.ToDecimal("19.99");
+
+            //operations
+            Console.WriteLine($"current age: {age}");
+
+            age++;
+            Console.WriteLine($"age++: {++age}");
+
+            age--;
+            Console.WriteLine($"age--: {age}");
+
+            age += 5;
+            Console.WriteLine($"age += 5: {age}");
+
+            age /= 3;
+            Console.WriteLine($"age /= 3: {age}");
+
+            age *= 3;
+            double result = age / 5f;
+            Console.WriteLine($"result: {result}");
+
+            grade += (char)1;
+            Console.WriteLine($"update grade: {grade}");
+
+
+            //reminder
+            int remainder = age % 4;
+            Console.WriteLine($"age: {age} % 4 = {remainder}");
+
+            //var variable
+            var city = "Dhaka";
+            var population = 20000000L;
+            var area = 306.4;
+            Console.WriteLine($"City: {city} Population: {population} Area: {area}");
+
+            const double gravity = 9.81;
+            Console.WriteLine($"gravity: {gravity}");
         }
+  
     }
 }
