@@ -91,9 +91,74 @@ namespace FareEngineAssessment
         }
     }
 
+    public class Passenger
+    {
+        public string Id { get; private set; }
+        public string Name { get; private set; }
+        public Passenger(string id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+    }
+
+    public class  InvalidTripException : Exception
+    {
+        public InvalidTripException(string message): base(message) { }
+    }
+
     public class Trip
     {
-        // Candidate to implement domain logic, calculations, and abstraction 
+        public Vehicle AssignedVehicle { get; private set; }
+        public Passenger TripPassenger { get; private set; }
+        public decimal DistanceKms { get; private set; }
+        public int DurationMinutes { get; private set; }
+        public TripStatus Status { get; private set; }
+        public IPromotion Promotion { get; private set; }
+
+        public Trip(Vehicle vehicle, Passenger passenger, decimal distanceKms, int durationMinutes, IPromotion promotion = null)
+        {
+            if (vehicle == null)
+                throw new InvalidTripException("A vehicle must be assigned.");
+            if (distanceKms < 0)
+                throw new ArgumentException("Distance cannot be negative.");
+            if (durationMinutes <= 0)
+                throw new ArgumentException("Duration must be greater than zero.");
+
+            AssignedVehicle = vehicle;
+            TripPassenger = passenger;
+            DistanceKms = distanceKms;
+            DurationMinutes = durationMinutes;
+            Promotion = promotion;
+            Status = TripStatus.Pending;
+        }
+
+        public decimal CalculateFinalFare()
+        {
+            
+            decimal fare = AssignedVehicle.CalculateTripFare(DistanceKms, DurationMinutes);
+
+            if (Promotion != null)
+            {
+                fare = Promotion.ApplyDiscount(fare);
+            }
+
+            
+            if (fare < AssignedVehicle.BaseFare)
+            {
+                fare = AssignedVehicle.BaseFare;
+            }
+
+            return fare;
+        }
+        public void CompleteTrip(IPaymentService paymentService)
+        {
+            decimal finalFare = CalculateFinalFare();
+            bool isSuccess = paymentService.ProcessPayment(TripPassenger.Id, finalFare);
+            Status = isSuccess ? TripStatus.Paid : TripStatus.Failed;
+
+            Console.WriteLine($"Trip Status: {Status}\n");
+        }
 
     }
     class Program
