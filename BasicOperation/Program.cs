@@ -11,11 +11,7 @@ namespace BasicOperation
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            FunctionBasic.WelcomeMessage();
-
-            FunctionBasic functionBasic = new FunctionBasic();
-            functionBasic.functionOperation();
-            Console.ReadLine();
+            ExceptionHandling.TestExceptionHandling();
 
 
 
