@@ -36,9 +36,22 @@ namespace FareEngineAssessment
 
     public class StandardCar : Vehicle 
     {
-        public StandardCar(string licensePlate) : base(licensePlate, 50.0m) { }
         public override decimal PerKmRate => 15.0m;
         public override decimal PerMinuteRate => 2.0m;
+        public StandardCar(string licensePlate) : base(licensePlate, 50.0m) { }
+
+    }
+
+    public class LuxurySedan: Vehicle
+    {
+        public decimal FlatLuxuryTax { get; private set; } = 100m;
+        public override decimal PerKmRate => 30m;
+        public override decimal PerMinuteRate => 5m;
+        public LuxurySedan(string licensePlate) : base(licensePlate, 150m) { }
+        public override decimal CalculateTripFare(decimal distanceKms, int durationMinutes)
+        {
+            return base.CalculateTripFare(distanceKms, durationMinutes) + FlatLuxuryTax;
+        }
 
     }
     public class Trip
