@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\stringformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\stringformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\basicoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\flowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\basicoperation\\flowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\flowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,40 +39,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Loops.cs",
-              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Loops.cs",
-              "RelativeDocumentMoniker": "BasicOperation\\Loops.cs",
-              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Loops.cs*",
-              "RelativeToolTip": "BasicOperation\\Loops.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAhAAAAAAAAAA==",
+              "Title": "StringFormat.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\StringFormat.cs",
+              "RelativeDocumentMoniker": "BasicOperation\\StringFormat.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\StringFormat.cs*",
+              "RelativeToolTip": "BasicOperation\\StringFormat.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T15:25:25.681Z",
+              "WhenOpened": "2026-05-20T01:08:01.944Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FlowControl.cs",
-              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FlowControl.cs",
-              "RelativeDocumentMoniker": "BasicOperation\\FlowControl.cs",
-              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FlowControl.cs",
-              "RelativeToolTip": "BasicOperation\\FlowControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T10:15:46.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataTypes.cs",
-              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\DataTypes.cs",
-              "RelativeDocumentMoniker": "BasicOperation\\DataTypes.cs",
-              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\DataTypes.cs",
-              "RelativeToolTip": "BasicOperation\\DataTypes.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T07:06:35.21Z"
             },
             {
               "$type": "Document",
@@ -78,10 +57,47 @@
               "RelativeDocumentMoniker": "BasicOperation\\Program.cs",
               "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Program.cs",
               "RelativeToolTip": "BasicOperation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T06:39:35.971Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Loops.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Loops.cs",
+              "RelativeDocumentMoniker": "BasicOperation\\Loops.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Loops.cs",
+              "RelativeToolTip": "BasicOperation\\Loops.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T15:25:25.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlowControl.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FlowControl.cs",
+              "RelativeDocumentMoniker": "BasicOperation\\FlowControl.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FlowControl.cs",
+              "RelativeToolTip": "BasicOperation\\FlowControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T10:15:46.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataTypes.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\DataTypes.cs",
+              "RelativeDocumentMoniker": "BasicOperation\\DataTypes.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\DataTypes.cs",
+              "RelativeToolTip": "BasicOperation\\DataTypes.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T07:06:35.21Z"
             }
           ]
         }
