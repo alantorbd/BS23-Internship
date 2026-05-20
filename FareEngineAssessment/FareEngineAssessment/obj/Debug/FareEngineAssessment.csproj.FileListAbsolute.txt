@@ -1,0 +1,7 @@
+D:\Antor\BrainStation\day-3\BS23-Internship\FareEngineAssessment\FareEngineAssessment\bin\Debug\FareEngineAssessment.exe.config
+D:\Antor\BrainStation\day-3\BS23-Internship\FareEngineAssessment\FareEngineAssessment\bin\Debug\FareEngineAssessment.exe
+D:\Antor\BrainStation\day-3\BS23-Internship\FareEngineAssessment\FareEngineAssessment\bin\Debug\FareEngineAssessment.pdb
+D:\Antor\BrainStation\day-3\BS23-Internship\FareEngineAssessment\FareEngineAssessment\obj\Debug\FareEngineAssessment.csproj.AssemblyReference.cache
+D:\Antor\BrainStation\day-3\BS23-Internship\FareEngineAssessment\FareEngineAssessment\obj\Debug\FareEngineAssessment.csproj.CoreCompileInputs.cache
+D:\Antor\BrainStation\day-3\BS23-Internship\FareEngineAssessment\FareEngineAssessment\obj\Debug\FareEngineAssessment.exe
+D:\Antor\BrainStation\day-3\BS23-Internship\FareEngineAssessment\FareEngineAssessment\obj\Debug\FareEngineAssessment.pdb
