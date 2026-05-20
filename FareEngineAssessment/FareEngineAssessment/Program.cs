@@ -82,6 +82,15 @@ namespace FareEngineAssessment
         }
     }
 
+    public class CreditCardPaymentService : IPaymentService
+    {
+        public bool ProcessPayment(string passengerId, decimal amount)
+        {
+            Console.WriteLine($"Processing payment of {amount:C} for Passenger: {passengerId}...");
+            return true;
+        }
+    }
+
     public class Trip
     {
         // Candidate to implement domain logic, calculations, and abstraction 
