@@ -18,7 +18,28 @@ namespace FareEngineAssessment
     }
     public abstract class Vehicle
     {
-        // Candidate to implement properties and encapsulation
+        public string LicensePlate { get; private set; }
+        public decimal BaseFare { get; private set; }
+
+        protected Vehicle(string licensePlate, decimal baseFare)
+        {
+            LicensePlate = licensePlate;
+            BaseFare = baseFare;
+        }
+        public abstract decimal PerKmRate { get; }
+        public abstract decimal PerMinuteRate { get; }
+        public virtual decimal CalculateTripFare(decimal distanceKms, int durationMinutes)
+        {
+            return BaseFare + (distanceKms * PerKmRate) + (durationMinutes * PerMinuteRate);
+        }
+    }
+
+    public class StandardCar : Vehicle 
+    {
+        public StandardCar(string licensePlate) : base(licensePlate, 50.0m) { }
+        public override decimal PerKmRate => 15.0m;
+        public override decimal PerMinuteRate => 2.0m;
+
     }
     public class Trip
     {
