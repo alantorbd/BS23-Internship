@@ -11,7 +11,8 @@ namespace BasicOperation
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            StringFormat stringFormat = new StringFormat();
+            ArrayBasic arrayBasic = new ArrayBasic();
+            arrayBasic.structureOperation();
 
             Console.ReadLine();
 
