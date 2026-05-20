@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\arraybasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\arraybasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\functionbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\functionbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\basicoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "BasicOperation\\Program.cs",
               "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Program.cs",
               "RelativeToolTip": "BasicOperation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T06:39:35.971Z",
               "IsPinned": true,
@@ -41,14 +41,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArrayBasic.cs",
-              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\ArrayBasic.cs",
-              "RelativeDocumentMoniker": "BasicOperation\\ArrayBasic.cs",
-              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\ArrayBasic.cs*",
-              "RelativeToolTip": "BasicOperation\\ArrayBasic.cs*",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAwHMAAABWAAAAAAAAAA==",
+              "Title": "FunctionBasic.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FunctionBasic.cs",
+              "RelativeDocumentMoniker": "BasicOperation\\FunctionBasic.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FunctionBasic.cs*",
+              "RelativeToolTip": "BasicOperation\\FunctionBasic.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T02:15:21.869Z",
+              "WhenOpened": "2026-05-20T03:32:11.723Z",
               "EditorCaption": ""
             }
           ]
