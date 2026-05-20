@@ -11,9 +11,10 @@ namespace BasicOperation
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            ArrayBasic arrayBasic = new ArrayBasic();
-            arrayBasic.structureOperation();
+            FunctionBasic.WelcomeMessage();
 
+            FunctionBasic functionBasic = new FunctionBasic();
+            functionBasic.functionOperation();
             Console.ReadLine();
 
 
