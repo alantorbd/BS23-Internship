@@ -11,7 +11,7 @@ namespace BasicOperation
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            Loops loops = new Loops();
+            StringFormat stringFormat = new StringFormat();
 
             Console.ReadLine();
 
