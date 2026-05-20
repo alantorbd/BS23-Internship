@@ -165,8 +165,27 @@ namespace FareEngineAssessment
     {
         static void Main(string[] args)
         {
-            // Candidate should write a small test suite here to demonstrate 
-            // their code works under various test cases (Standard vs Luxury, with/
+            var passenger = new Passenger("P-001", "Abdullah");
+            var paymentService = new CreditCardPaymentService();
+            try
+            {
+                Vehicle standardCar = new StandardCar("ABC-123");
+                IPromotion tenPercentOff = new PercentageDiscount(10);
+                var trip1 = new Trip(standardCar, passenger, 10m, 20, tenPercentOff);
+                Console.WriteLine($"Trip 1 Final Fare: {trip1.CalculateFinalFare():C}");
+                trip1.CompleteTrip(paymentService);
+
+                
+                Console.WriteLine("Testing Validation:");
+                var trip2 = new Trip(standardCar, passenger, -5m, 10);
+                trip2.CompleteTrip(paymentService);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            Console.WriteLine();
 
         }
     }
