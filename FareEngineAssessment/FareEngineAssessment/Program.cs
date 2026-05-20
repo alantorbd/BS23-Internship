@@ -54,6 +54,34 @@ namespace FareEngineAssessment
         }
 
     }
+
+    public class PercentageDiscount : IPromotion
+    {
+        private readonly decimal _percentage;
+        public PercentageDiscount(decimal percentage)
+        {
+            _percentage = percentage;
+        }
+
+        public decimal ApplyDiscount(decimal currentFare)
+        {
+            return (currentFare -  (currentFare *  _percentage / 100m));
+        }
+    }
+
+    public class FlatAmountDiscount : IPromotion
+    {
+        private readonly decimal _discountAmount;
+        public FlatAmountDiscount(decimal discountAmount)
+        {
+            _discountAmount = discountAmount;
+        }
+        public decimal ApplyDiscount(decimal currentFare)
+        {
+            return (currentFare - _discountAmount);
+        }
+    }
+
     public class Trip
     {
         // Candidate to implement domain logic, calculations, and abstraction 
