@@ -32,7 +32,9 @@ namespace BasicOperation
             Func<int> onLigth = Light;
             onLigth += Tv;
             Console.WriteLine($"Deligait Call: {onLigth()}");
-           
+
+            Predicate<int> isEven = IsEven;
+
         }
 
         public void Fan(int a, int b, int c)
@@ -50,5 +52,10 @@ namespace BasicOperation
             Console.WriteLine("Tv is on");
             return 4;
         }
+
+        public bool IsEven(int number) {
+            return number % 2 == 0;
+        }
+
     }
 }
