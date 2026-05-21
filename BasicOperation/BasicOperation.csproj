@@ -49,6 +49,7 @@
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="FlowControl.cs" />
     <Compile Include="FunctionBasic.cs" />
+    <Compile Include="GenericsOperations.cs" />
     <Compile Include="Loops.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

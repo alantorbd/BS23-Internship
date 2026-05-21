@@ -11,7 +11,7 @@ namespace BasicOperation
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            CollectionOperations.TestCollectionOperations();
+            GenericsOperations.TestGenericsOperations();
 
 
 
