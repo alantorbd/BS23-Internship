@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\",
+  "WorkspaceRootPath": "D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-4\\bs23-internship\\basicoperation\\collectionoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\collectionoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\basicoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\basicoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-2\\bs23-internship\\basicoperation\\functionbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\functionbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|d:\\antor\\brainstation\\day-4\\bs23-internship\\basicoperation\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615C9AC-692A-455A-8239-545AD177BCEB}|BasicOperation\\BasicOperation.csproj|solutionrelative:basicoperation\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Program.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\BasicOperation\\Program.cs",
               "RelativeDocumentMoniker": "BasicOperation\\Program.cs",
-              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\Program.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\BasicOperation\\Program.cs",
               "RelativeToolTip": "BasicOperation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T06:39:35.971Z",
               "IsPinned": true,
@@ -45,27 +45,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExceptionHandling.cs",
-              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\ExceptionHandling.cs",
-              "RelativeDocumentMoniker": "BasicOperation\\ExceptionHandling.cs",
-              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\ExceptionHandling.cs",
-              "RelativeToolTip": "BasicOperation\\ExceptionHandling.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
+              "Title": "CollectionOperations.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\BasicOperation\\CollectionOperations.cs",
+              "RelativeDocumentMoniker": "BasicOperation\\CollectionOperations.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\BasicOperation\\CollectionOperations.cs*",
+              "RelativeToolTip": "BasicOperation\\CollectionOperations.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T04:36:01.852Z",
+              "WhenOpened": "2026-05-21T08:17:47.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FunctionBasic.cs",
-              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FunctionBasic.cs",
-              "RelativeDocumentMoniker": "BasicOperation\\FunctionBasic.cs",
-              "ToolTip": "D:\\Antor\\BrainStation\\day-2\\BS23-Internship\\BasicOperation\\FunctionBasic.cs",
-              "RelativeToolTip": "BasicOperation\\FunctionBasic.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwDAAAAAvAAAAAAAAAA==",
+              "Title": "ExceptionHandling.cs",
+              "DocumentMoniker": "D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\BasicOperation\\ExceptionHandling.cs",
+              "RelativeDocumentMoniker": "BasicOperation\\ExceptionHandling.cs",
+              "ToolTip": "D:\\Antor\\BrainStation\\day-4\\BS23-Internship\\BasicOperation\\ExceptionHandling.cs",
+              "RelativeToolTip": "BasicOperation\\ExceptionHandling.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T03:32:11.723Z",
+              "WhenOpened": "2026-05-20T04:36:01.852Z",
               "EditorCaption": ""
             }
           ]
