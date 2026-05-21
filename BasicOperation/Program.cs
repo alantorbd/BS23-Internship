@@ -10,8 +10,8 @@ namespace BasicOperation
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            GenericsOperations.TestGenericsOperations();
+            EventDeligation eventDeligation = new EventDeligation();
+            
 
 
 

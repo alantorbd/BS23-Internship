@@ -46,6 +46,7 @@
     <Compile Include="ArrayBasic.cs" />
     <Compile Include="CollectionOperations.cs" />
     <Compile Include="DataTypes.cs" />
+    <Compile Include="EventDeligation.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="FlowControl.cs" />
     <Compile Include="FunctionBasic.cs" />
