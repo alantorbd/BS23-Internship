@@ -8,11 +8,12 @@ namespace BasicOperation
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            GenericsOperations.TestGenericsOperations();
+            AsynchornusProgramming asynchornusProgramming = new AsynchornusProgramming();
 
+            var fan = asynchornusProgramming.StartFan();
+            await fan;
 
 
         }
